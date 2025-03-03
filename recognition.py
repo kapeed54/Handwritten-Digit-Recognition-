@@ -9,7 +9,7 @@ mnist = tf.keras.datasets.mnist
 (x_train, y_train), (x_test, y_test) = mnist.load_data()
 
 #print dataset shape
-print(f"Training data: {x_train.shape}, Labels: {y_train.shape}")
+print(f"Training data: {x_tran.shape}, Labels: {y_train.shape}")
 print(f"Testing data: {x_test.shape}, Labels: {y_test.shape}")
 
 #b. visualize some sample images
